@@ -2,21 +2,20 @@ let input;
 let total = 0;
 
 
-while(true){
+do{
 input=prompt('Введите число');
-if(input===null){
-    break;
-}
+input = Number(input);
 
-input=Number(input);
 
-if(Number.isNaN(input)){
+if (Number.isNaN (input)) {
 alert('Было введено не число, попробуйте еще раз');
 continue;
 }
 
+else {
 total += input;
-
 }
+
+} while (input !== null);
 
 console.log(`Общая сумма чисел равна ${total}`);

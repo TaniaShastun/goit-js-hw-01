@@ -14,27 +14,27 @@ if (country === null) {
     
         case 'китай': 
         price=100;
-        message=(`Доставка в ${deliveryCountry.toLowerCase()} будет стоить ${price} кредитов`);
+        message=(`Доставка в ${deliveryCountry} будет стоить ${price} кредитов`);
         break;
     
         case 'чили': 
         price=250;
-        message=(`Доставка в ${deliveryCountry.toLowerCase()} будет стоить ${price} кредитов`);
+        message=(`Доставка в ${deliveryCountry} будет стоить ${price} кредитов`);
         break;
     
         case 'австралия': 
         price=170;
-        message= (`Доставка в ${deliveryCountry.toLowerCase()} будет стоить ${price} кредитов`);
+        message= (`Доставка в ${deliveryCountry} будет стоить ${price} кредитов`);
         break;
     
         case 'индия': 
         price=80;
-        message= (`Доставка в ${deliveryCountry.toLowerCase()} будет стоить ${price} кредитов`);
+        message= (`Доставка в ${deliveryCountry} будет стоить ${price} кредитов`);
         break;
     
         case 'ямайка': 
         price=120;
-        message= (`Доставка в ${deliveryCountry.toLowerCase()} будет стоить ${price} кредитов`);
+        message= (`Доставка в ${deliveryCountry} будет стоить ${price} кредитов`);
         break;
         
         default:
